@@ -1,0 +1,27 @@
+<div *ngIf="!show" class="top">  
+  <input class="nameplace" type="text" placeholder="Write a title" [(ngModel)]="name"/>
+  <button class="batan" (click)="addcontent()">Display details</button> 
+</div>
+<div *ngIf="show" class="main-content">
+   <div  class="banner">
+     <div class="photo cont">
+        <img ng-if="addcontent" src="{{newdata.avatar_url}}" class="profile-pic"  ng-click="userLogin()"/>
+        <p>Image</p>  
+     </div>
+     <div class="cont">
+        <span class="name "><h4>{{newdata.name}}</h4></span>
+        <span class="bio "><p> {{newdata.bio}}</p></span>
+        <span class="location "><p>{{newdata.location}}</p></span>
+        <span class="socmidea"><p>{{newdata.twitter_username}}</p></span>
+        <span class="socmidea"><p>{{newdata.html_url}}</p></span>  
+     </div>
+   </div>
+  <div class="repo">
+   <div *ngFor="let i of repodata" class="repositery" >
+      <span class="name"><h2 *ngIf="i.name!=null">{{i.name}}</h2><h2 *ngIf="i.name==null">Project name</h2></span>
+      <span class="description"><p *ngIf="i.description!=null">{{i.description}}</p><p *ngIf="i.description==null">Description of project</p></span>
+      <div *ngIf="i.language!=null" class="language"><h4>{{i.language}}</h4></div>
+      <div *ngIf="i.language==null" class="language second"> <h4>Language of the project</h4></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,81 @@
+.main-content{
+    background: #adc6f1cf;
+}
+.top{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.top .nameplace{
+    height: 30px;
+    width: 250px;
+}
+.top .batan{
+    width: 100px;
+    margin: 0 10px;
+    background-image: linear-gradient(-30deg, #fbc2eb 0%, #a6c1ee 100%);
+    height: 45px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+.banner{
+    background-image: linear-gradient(165deg, #fbc2eb 0%, #a6c1ee 100%);
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.photo{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background: beige;
+    text-align: center;
+    margin: auto 17px auto 76px !important;
+}
+.photo p{
+    z-index: 0;
+    position: absolute;
+    left: 115px;
+    top: 115px;
+}
+.cont{
+    display: inline-block;
+    margin: 10px;
+}
+h4,p{
+    margin: 10px;
+}
+.repositery{
+    display: inline-block;
+    width: 35%;
+    border: 2px solid;
+    margin: 10px;
+    padding: 10px;
+}
+.repo{
+   width: 85%;
+}
+.language{
+    width: fit-content;
+    padding: 10px;
+    background: lightblue;
+    border-radius: 5px;
+}
+.language h4{
+    width: fit-content;
+    margin: 0;
+}
+.second{
+    background: none !important;
+}
+h2{
+    margin: 3px;
+}
