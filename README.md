@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Fetch-github-profile
-Angulag project to fetch github profile and repository of anyone from username
+Angular project to fetch github profile and repository of anyone from username
 =======
 # MyApp
 
