@@ -1,0 +1,30 @@
+.main-content {
+    background: #adc6f1cf;
+}
+
+.top {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.top .nameplace {
+    height: 45px;
+    width: 268px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.top .batan {
+    width: 120px;
+    margin: 0 0 0 10px;
+    background-color: #de84c5;
+    height: 60px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
